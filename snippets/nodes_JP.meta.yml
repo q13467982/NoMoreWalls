@@ -1,11 +1,4 @@
 proxies:
-- name: JP
-  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-  port: 13778
-  server: jp7.dexlos.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -22,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_2|2.1MB/s
+- name: 日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -32,9 +25,9 @@ proxies:
   type: trojan
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|3.9MB/s
+  name: 🇯🇵JP_1|3.4MB/s
   network: tcp
-  port: 34761
+  port: '34761'
   reality-opts:
     public-key: vpyTFpAW_aDyAozpeWyB4Q5orhkbdxZ82V0ZPt7A9U8
     short-id: '!!str ad568d7e89114c24'
@@ -44,3 +37,4 @@ proxies:
   type: vless
   udp: true
   uuid: 9a15843f-c194-4625-b058-29833674acc0
+  xudp: true
