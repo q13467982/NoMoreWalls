@@ -1,8 +1,1 @@
-proxies:
-- name: 🇰🇷KR_1|5.3MB/s
-  password: ''
-  port: '1080'
-  server: 8.213.149.224
-  skip-cert-verify: true
-  type: socks5
-  username: ''
+proxies: []
