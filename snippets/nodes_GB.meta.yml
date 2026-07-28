@@ -9,16 +9,78 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: ljfxz
-  name: 🇬🇧GB_1|1.9MB/s
+    grpc-service-name: sync.v2.PushService
+  name: 🇬🇧GB_1|2.4MB/s
   network: grpc
-  port: 46784
-  server: t1.hhaakk9922.com
-  servername: t1.hhaakk9922.com
+  port: 443
+  server: status.capitaloneok.com
+  servername: status.capitaloneok.com
   tls: true
   type: vless
   udp: true
-  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
+  uuid: 649291ba-27db-423a-a34b-6ddade44973f
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_2|2.3MB/s
+  network: grpc
+  port: '2053'
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: '!!str 5c766813929a1fdd'
+  server: 31.76.122.42
+  servername: play.overcloud.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10eabb0e-25cc-4210-82c9-f05d964572d8
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.8MB/s
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 42e51b053eec3700'
+  server: 5.254.121.199
+  servername: cdn4-81.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_4|2.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
+    short-id: '!!str '
+  server: pro-us.emrata.top
+  servername: pro-us.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 138bfe7f-a2c4-443e-befe-6a9d13e1550b
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: GB_speednode_0010
+  network: tcp
+  port: 49000
+  reality-opts:
+    public-key: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
+  server: defast.mifbot.pro
+  servername: git.sly.team
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59

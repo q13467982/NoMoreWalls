@@ -69,33 +69,51 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_1|2.0MB/s
-  network: ws
-  port: '33208'
-  server: cu2.ainivp.com
-  skip-cert-verify: false
+- auth: 92e82460-9a6f-4a1d-b455-d96e036eee4a
+  name: 🇩🇪DE_1|3.8MB/s
+  password: 92e82460-9a6f-4a1d-b455-d96e036eee4a
+  port: 8443
+  server: s1.monitoring-msk.online
+  skip-cert-verify: true
+  sni: s1.monitoring-msk.online
+  type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api.v1.StreamService
+  name: 🇩🇪DE_2|2.6MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: 8foPheDUi9ULJfe5UuxfspzwQ7J5JZg-2J1XkhL1B1I
+    short-id: '!!str 0768452b5e736e7f'
+  server: get.noneok.com
+  servername: get.noneok.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: cu2.ainivp.com
-    path: /ray
-  xudp: true
-- name: 🇩🇪DE_2|2.1MB/s
+  uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇩🇪DE_3|1.6MB/s
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- name: 🇩🇪DE_4|2.6MB/s
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
-  tls: true
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_3|2.1MB/s
+- name: 🇩🇪DE_5|2.1MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: '20041'
@@ -104,3 +122,115 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: 🇩🇪DE_6|1.8MB/s
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
+- client-fingerprint: chrome
+  name: 🇩🇪DE_7|2.6MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  name: 🇩🇪DE_8|3.3MB/s
+  network: tcp
+  port: '22006'
+  reality-opts:
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: '!!str c6e19c434dc87df7'
+  server: de.sv.temas-bor.ir
+  servername: login.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97c9c483-5bcc-4918-8922-9f28c827710c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_9|2.5MB/s
+  network: tcp
+  port: '1824'
+  reality-opts:
+    public-key: JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo
+    short-id: '!!str 8390ee7a5996648b'
+  server: ger7.fastcodz.ir
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5496502-7a89-4099-9a49-835382ec951a
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇩🇪DE_10|3.5MB/s
+  network: grpc
+  port: '16923'
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 89.222.123.209
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
+  xudp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: DE_speednode_0003
+  network: tcp
+  port: 1443
+  reality-opts:
+    public-key: rvOPhBAT3c5Uok7UDuxVfML3j4mib3Y9MU_Cd9M822c
+    short-id: '!!str 0441f3e34348cb45'
+  server: ch.snowfalls.top
+  servername: ch.snowfalls.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
+- client-fingerprint: chrome
+  name: DE_speednode_0004
+  network: ws
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: DE_speednode_0005
+  network: ws
+  port: 2053
+  server: 147.45.196.240
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
