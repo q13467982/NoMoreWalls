@@ -1,34 +1,22 @@
 proxies:
-- name: 🇬🇧 Telegram = V2RayyNGvpn 🇬🇧
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: RWn1s1QBjJ
-  port: 2087
-  server: 212.74.39.202
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: firefox
+- client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: sync.v2.PushService
-  name: 🇬🇧GB_1|2.4MB/s
+    grpc-service-name: ljfxz
+  name: 🇬🇧GB_1|1.8MB/s
   network: grpc
-  port: 443
-  server: status.capitaloneok.com
-  servername: status.capitaloneok.com
+  port: 46784
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
   tls: true
   type: vless
   udp: true
-  uuid: 649291ba-27db-423a-a34b-6ddade44973f
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇬🇧GB_2|2.3MB/s
+  name: 🇬🇧GB_2|1.9MB/s
   network: grpc
   port: '2053'
   reality-opts:
@@ -41,34 +29,23 @@ proxies:
   udp: true
   uuid: 10eabb0e-25cc-4210-82c9-f05d964572d8
   xudp: true
-- client-fingerprint: firefox
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|2.8MB/s
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 42e51b053eec3700'
-  server: 5.254.121.199
-  servername: cdn4-81.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_4|2.0MB/s
+  name: 🇬🇧GB_3|2.1MB/s
   network: tcp
-  port: '443'
+  port: '55880'
   reality-opts:
-    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
-    short-id: '!!str '
-  server: pro-us.emrata.top
-  servername: pro-us.emrata.top
+    public-key: BibMDEe05xV7nGF6eUhylxgry-JoWCCwrGdyAasOuyU
+    short-id: '!!str 69b0ac6c'
+  server: ly.gaaaa015.top
+  servername: www.bilibili.com
   tls: true
   type: vless
   udp: true
-  uuid: 138bfe7f-a2c4-443e-befe-6a9d13e1550b
+  uuid: 7552bb29-f54e-4b4d-ac51-998611cf7462
   xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision

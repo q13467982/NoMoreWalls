@@ -1,16 +1,10 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_1|2.6MB/s
-  password: fbaf33bcffe53cf9
-  port: 10921
-  server: 195.58.48.19
-  type: ss
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 🇷🇺RU_2|2.1MB/s
-  network: grpc
-  port: '8443'
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.4MB/s
+  network: tcp
+  port: '993'
   reality-opts:
     public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
     short-id: '!!str '
@@ -119,17 +113,3 @@ proxies:
   type: vless
   udp: true
   uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: RU_speednode_0025
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
