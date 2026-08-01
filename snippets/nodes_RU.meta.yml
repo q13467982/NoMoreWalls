@@ -1,56 +1,22 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇷🇺RU_1|2.5MB/s
-  password: d99c422199e62b6b
-  port: '10910'
-  server: 176.32.34.152
+  name: 🇷🇺RU_1|1.1MB/s
+  password: 94571d62-a23f-364e-8065-2a740b342216
+  port: 20030
+  server: 7.8.k.w.d.a.4.3.b.ru01-ae5.entry.v51124-1.qpon
   type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺RU_2|1.4MB/s
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: '!!str f0131a4772b494d4'
-  server: 85.209.135.3
-  servername: dns.adguard-dns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-  xudp: true
-- client-fingerprint: random
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: RU_speednode_0084
+  name: RU_speednode_0166
   network: tcp
-  port: 9893
-  reality-opts:
-    public-key: GVNhQWxHlpnqLnhlOeFpagU1QLVVHBepBQN0YcPjXVg
-  server: 46.253.132.41
-  servername: www.io.ozone.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: RU_speednode_0085
-  network: ws
   port: 443
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: usa02.myxasecure.space
+  servername: usa02.myxasecure.space
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0e192bd1-8f19-4184-9fff-6d67e4f738bd
-  ws-opts:
-    headers:
-      Host: ov186.ochmaybrooooo.online
-    path: /
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
