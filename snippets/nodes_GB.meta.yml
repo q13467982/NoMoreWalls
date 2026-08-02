@@ -7,13 +7,113 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  name: 🇬🇧GB_1|2.2MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: m2MQjlTnUN244sWTtGjDXYFZPAIi5-6bcrFfr_bgvkI
+  server: 31.76.8.249
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a088d58-eb38-47bd-b74d-ac392ee12ccd
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_5|4.6MB/s
+  network: tcp
+  port: 47302
+  reality-opts:
+    public-key: NB_trxdXXOpnKDwfbpvbK_xygAB9Uv1HqRkFwkTbUGk
+    short-id: '!!str be499dd7'
+  server: 52.192.136.69
+  servername: 16personalities.wwwnav.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7538f8-1023-4af1-8842-e704dbd6b109
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: 🇬🇧GB_3|2.0MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 188.72.103.3
+  servername: grape.hotwigga.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98513192-ca35-4f7f-a965-da1a2473675f
+  xhttp-opts:
+    host: grape.hotwigga.space
+    mode: packet-up
+    path: /content/assets/main-6e1a/
+    seq-key: chunk_id
+    seq-placement: query
+    session-key: X-Upload-Token
+    session-placement: header
+    uplink-chunk-size: 0
+    uplink-http-method: GET
+    x-padding-header: X-Client-Version
+    x-padding-key: hash
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- alpn:
+  - h2
+  client-fingerprint: random
+  name: 🇬🇧GB_4|1.1MB/s
+  network: xhttp
+  port: 443
+  server: 188.72.103.3
+  servername: g43g324.whit3.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44be17d7-8295-4d56-8623-4ae675a9cf9b
+  xhttp-opts:
+    host: g43g324.whit3.net
+    mode: packet-up
+    path: /api/v1/
+    seq-key: id
+    seq-placement: query
+    uplink-data-key: X-Ver
+    uplink-http-method: GET
+    x-padding-bytes: 100-1000
+    x-padding-header: api_v1
+    x-padding-key: xss
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_1|3.0MB/s
+  name: 🇬🇧GB_6|1.1MB/s
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: '61312'
-  server: 129.151.64.234
+  server: 129.151.64.45
   type: ss
   udp: true
+- http-opts:
+    headers:
+      Host:
+      - www.icloud.com
+    method: GET
+    path:
+    - /
+  name: 🇬🇧GB_7|4.1MB/s
+  network: http
+  port: 4568
+  server: s1.pro-vip-cnavippanel.xyz
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4ca31b44-9188-4cc7-adc6-f940888e5282
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: GB_speednode_0008

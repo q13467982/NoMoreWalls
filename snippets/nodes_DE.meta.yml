@@ -29,78 +29,233 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: qq
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇩🇪DE_1|2.6MB/s
-  network: xhttp
-  port: '443'
-  server: fsxhh.wizardxy.com
-  servername: speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ba5361f-2d12-40fe-9f33-eca6847f1475
-  xhttp-opts:
-    host: wizardali.global.ssl.fastly.net
-    mode: packet-up
-    path: /mammadalifsx
-  xudp: true
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_2|3.3MB/s
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: '37003'
-  server: 179.61.251.253
-  skip-cert-verify: false
-  sni: de.jey.cc.cd
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|1.3MB/s
+  name: 🇩🇪DE_1|1.5MB/s
   network: ws
-  port: '443'
-  server: 199.232.78.159
-  servername: ssl.fastly.com
+  port: 443
+  server: 31.76.11.46.cdn-one.org
   tls: true
   type: vless
   udp: true
-  uuid: 30a6ad20-2d4c-4c4d-a301-66b74d15f000
+  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
   ws-opts:
     headers:
-      Host: lsjaoijji.global.ssl.fastly.neT
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
+- client-fingerprint: firefox
   grpc-opts:
-    grpc-service-name: grpc-direct
-  name: 🇩🇪DE_4|3.1MB/s
+    grpc-mode: gun
+    grpc-service-name: api.v1.telemetry.EventStream
+  name: 🇩🇪DE_2|3.7MB/s
   network: grpc
-  port: '2053'
+  port: 8443
   reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: '!!str 4b685844d0b4f724'
-  server: 89.208.229.243
-  servername: hh.ru
+    public-key: 56QUSkgaBUAruo4LoZnfo6z6Y4CGZRTx1zdNLYKKGRk
+    short-id: '!!str 530db35e324c3aa5'
+  server: 152.236.3.20
+  servername: addons.mozilla.org
   tls: true
   type: vless
   udp: true
-  uuid: 42d3cfb6-8a1d-11f1-9ca5-1e6febe3e1df
+  uuid: f50822b7-02ec-4611-83bd-ff29411e0e10
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇩🇪DE_3|1.6MB/s
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|2.7MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 159.195.139.217
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48267e65-8bf0-4046-923f-4ee967009344
+- client-fingerprint: qq
+  name: 🇩🇪DE_5|1.4MB/s
+  network: xhttp
+  port: 9443
+  reality-opts:
+    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
+    short-id: '!!str 50'
+  server: test.firm-maple.test-cdn-kkk.com
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a6fd519-486c-4ade-b7a0-a063e0d0132a
+  xhttp-opts:
+    host: sun6-21.userapi.com
+    mode: auto
+    path: /
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ns
+  name: 🇩🇪DE_6|4.3MB/s
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw
+  server: 185.229.9.176
+  servername: id.pervye.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8560b150-6500-4e4c-9a4e-909bdbd2fcda
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪DE_7|1.6MB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: '443'
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪DE_8|1.5MB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: '443'
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_9|1.4MB/s
+  network: ws
+  port: '443'
+  server: 31.76.11.46.cdn-one.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /52872/BNzG4FvIAr
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  name: 🇩🇪DE_10|1.8MB/s
+  network: xhttp
+  port: '443'
+  server: 185.126.93.17
+  servername: wx-deu-037.cdnphotos.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77930005-ea92-44dc-9d94-e9192427f519
+  xhttp-opts:
+    host: wx-deu-037.cdnphotos.org
+    mode: auto
+    path: /api/v1/
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_11|1.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+    short-id: '!!str '
+  server: 94.249.225.80
+  servername: warm-gazelle.cdn.cachefleet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_12|1.2MB/s
+  network: xhttp
+  port: '442'
+  server: 159.194.220.5
+  servername: ru-msk.sillyvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2d71d05-dd22-4bd0-bb02-1fceaccad963
+  xhttp-opts:
+    host: ru-msk.sillyvpn.cc
+    mode: packet-up
+    path: /api/burmalda.json
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_13|1.8MB/s
+  network: tcp
+  port: '4443'
+  reality-opts:
+    public-key: yIxxpfF8FygAHQvVXCiI5O1o3DrAPlW70JlTrFAv3D8
+    short-id: '!!str 5af0b7d9'
+  server: 64.188.79.222
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4b80f6b-0931-4ae4-96fe-6dc844c5c466
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.telemetry.EventStream
+  name: 🇩🇪DE_14|2.9MB/s
+  network: grpc
+  port: '8443'
+  reality-opts:
+    public-key: 56QUSkgaBUAruo4LoZnfo6z6Y4CGZRTx1zdNLYKKGRk
+    short-id: '!!str 530db35e324c3aa5'
+  server: 152.236.3.10
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: f50822b7-02ec-4611-83bd-ff29411e0e10
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_15|1.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: kaw2U8L2ZTcgo56qUBONfylYJpHprI_CgZfv1I4q2Sc
+    short-id: '!!str b512d49930874a31'
+  server: 185.126.67.76
+  servername: cdn-de-4.ai-apiroute.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
   xudp: true
 - alpn:
   - h2
   client-fingerprint: edge
-  name: 🇩🇪DE_5|1.6MB/s
+  name: 🇩🇪DE_16|2.9MB/s
   network: xhttp
   port: '443'
   server: wx-deu-037.cdnphotos.org
@@ -113,26 +268,6 @@ proxies:
     host: wx-deu-037.cdnphotos.org
     mode: auto
     path: /api/v1/
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_6|2.3MB/s
-  network: ws
-  port: '2096'
-  server: nop.jupitter.ir
-  servername: gfdhdasffgadsag.konjedland.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 140bc201-3a42-4856-bc13-f54a34d9061f
-  ws-opts:
-    headers:
-      Host: gfdhdasffgadsag.konjedland.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /WEDBAZ?ed=2048
-  xudp: true
 - name: DE_speednode_0004
   port: 443
   server: secdn-105.nem-osh-rkp.net
