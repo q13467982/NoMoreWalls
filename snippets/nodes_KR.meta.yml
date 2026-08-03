@@ -1,22 +1,4 @@
 proxies:
-- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
 - name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -40,8 +22,16 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: KR_speednode_0012
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_1|5.1MB/s
+  name: 🇰🇷KR_4|3.8MB/s
   network: tcp
   password: ND91608427
   port: '443'
@@ -51,61 +41,12 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_2|5.1MB/s
+  name: KR_speednode_0013
   network: tcp
   password: ND91608427
-  port: '443'
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_3|5.0MB/s
-  network: tcp
-  password: ND91608427
-  port: '443'
+  port: 443
   server: moved-meerkat.rooster465.autos
   skip-cert-verify: true
   sni: moved-meerkat.rooster465.autos
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: KR_speednode_0069
-  network: ws
-  port: 443
-  server: 211.49.57.179
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- name: KR_speednode_0070
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- client-fingerprint: chrome
-  name: KR_speednode_0071
-  network: ws
-  port: 28973
-  server: 218.155.85.44
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net

@@ -1,118 +1,4 @@
 proxies:
-- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  network: ws
-  port: 17416
-  security: tls
-  server: 103.133.240.115
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristifp=chrome
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  network: ws
-  port: 30003
-  security: tls
-  server: 140.235.10.14
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristifp=chrome
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 15807
-  server: 138.2.112.117
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  skip-cert-verify: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-    path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 176.124.223.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 06 TG: @nodpai'
-  network: ws
-  port: 30001
-  security: tls
-  server: 114.204.40.185
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 07 TG: @nodpai'
-  network: ws
-  port: 7152
-  security: tls
-  server: 8.219.129.246
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: ws
-  port: 42769
-  server: 45.143.131.216
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  skip-cert-verify: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-    path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
-  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  port: 443
-  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -137,25 +23,49 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|3.3MB/s
-  network: tcp
-  port: '29855'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v2.cdn.yye837u1f6xg.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
+- name: JP_speednode_0011
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
   udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
+- name: 🇯🇵JP_2|5.6MB/s
+  password: ND91608427
+  port: 443
+  server: relaxing-bluebird.rooster465.autos
+  skip-cert-verify: true
+  sni: relaxing-bluebird.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: JP_speednode_0010
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|3.1MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 162.159.44.100
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_2|2.9MB/s
+  name: 🇯🇵JP_5|2.2MB/s
   network: tcp
   port: '39409'
   reality-opts:
@@ -168,33 +78,3 @@ proxies:
   udp: true
   uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
   xudp: true
-- client-fingerprint: chrome
-  name: JP_speednode_0067
-  network: ws
-  port: 443
-  server: 52.197.217.169
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: JP_speednode_0068
-  network: ws
-  port: 57554
-  server: 203.137.165.164
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
