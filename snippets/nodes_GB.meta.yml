@@ -29,3 +29,27 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+- name: 🇬🇧GB_1|3.4MB/s
+  password: 5040a6b0-92be-42bc-a8ab-7f8c1d02866c
+  port: 53991
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: jp03.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇬🇧GB_3|2.3MB/s
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|1.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

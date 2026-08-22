@@ -15,7 +15,7 @@ proxies:
   sni: deu0003ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-- name: 🍥75@oneclickvpnkeys
+- name: '德国 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.169
@@ -72,14 +72,6 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 🧮57@oneclickvpnkeys
-  password: 8569e507-8ef7-481d-9108-6bc7f040c2ff
-  port: 9443
-  server: newos.klzvezdi.ru
-  skip-cert-verify: true
-  sni: newos.klzvezdi.ru
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -104,13 +96,25 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- auth: Germany2026hy
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: 🇩🇪DE_1|2.3MB/s
-  obfs: salamander
-  obfs-password: SalamanderDE2026
-  password: Germany2026hy
-  port: 8443
-  server: 45.128.99.14
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2UWlK1pgBgiFti_aRf1L8sbJALhr7LGyuq4Mf4pMQzM
+    short-id: '!!str '
+  server: de3.prformula.cfd
+  servername: de3.prformula.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d71edc2-7547-4b0e-9c94-aebc8c153d60
+  xudp: true
+- name: 🇩🇪DE_2|1.9MB/s
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
-  sni: de.nobelchat.ru
-  type: hysteria2
+  tls: true
+  type: http
