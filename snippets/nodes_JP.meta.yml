@@ -45,19 +45,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.0MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: Ci03uVNJ34iSg-BSeOgrhTAeWcJExB5gQNuQVRY3a2Q
-    short-id: '!!str 01b4986b50245272'
-  server: 8.209.217.129
-  servername: www.logitech.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a1bd3a7-22e6-4ed0-add4-7ee824d8f54a
-  xudp: true
