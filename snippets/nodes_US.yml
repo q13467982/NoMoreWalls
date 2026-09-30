@@ -29,7 +29,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: 🇺🇸US_1|4.1MB/s
+- name: 🇺🇸US_2|2.9MB/s
   password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
   port: 443
   server: 192.236.151.43

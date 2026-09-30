@@ -16,7 +16,7 @@ proxies:
     path: /ws-vmess
 - down: ''
   fingerprint: ''
-  name: 🇰🇷KR_1|1.1MB/s
+  name: 🇰🇷KR_1|1.5MB/s
   obfs: ''
   obfs-password: ''
   password: 1671a252e2a97dc2bda4e515475931da
