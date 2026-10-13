@@ -1,8 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇨🇦CA_2|1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.99.191.16
-  type: ss
+- client-fingerprint: chrome
+  name: 🇨🇦CA_4|1.1MB/s
+  network: tcp
+  password: Trojan@82164024
+  port: '443'
+  server: ca.tronsg.com
+  skip-cert-verify: false
+  type: trojan
   udp: true
